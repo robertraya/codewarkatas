@@ -19,3 +19,5 @@ def high(x):
             num += ord(word) - 96
         numArr.append(num)
     return arr[numArr.index(max(numArr))]
+
+print(high('where in the world is carmen san diego'))
